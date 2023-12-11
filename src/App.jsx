@@ -1,4 +1,5 @@
 import About from "./About";
+import Education from "./Education";
 import Home from "./Home";
 import Navbar from "./Nav";
 import ParticleBg from "./ParticleBg";
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
         <Skills/>
+      </div>
+      <div>
+        <Education/>
       </div>
     </div>
   );
