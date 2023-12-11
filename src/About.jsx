@@ -29,7 +29,7 @@ const About = () => {
           <div className="flex items-center text-lg font-normal gap-2"><FaLocationDot /> Dhaka, Bangladesh</div>
           <div className="flex items-center text-lg font-normal gap-2"><FaPhone/> +8801909598003</div>
           <div>
-            <button className="text-white text-xl bg-[#011aff] px-4 py-2 rounded-lg"><span className="flex items-center gap-2">Resume <IoDocumentText/></span></button>
+            <button className="text-white text-xl bg-[#011aff] px-4 py-2 rounded-full"><span className="flex items-center gap-2">Resume <IoDocumentText/></span></button>
           </div>
         </div>
       </div>
