@@ -3,6 +3,7 @@ import Education from "./Education";
 import Home from "./Home";
 import Navbar from "./Nav";
 import ParticleBg from "./ParticleBg";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div>
         <Education/>
+      </div>
+      <div>
+        <Projects/>
       </div>
     </div>
   );

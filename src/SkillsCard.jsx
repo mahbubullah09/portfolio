@@ -2,7 +2,7 @@ import { data } from "autoprefixer";
 
 
 const SkillsCard = ({data}) => {
-    console.log(data);
+
     return (
         <div className="text-center text-white bg-black p-4  rounded-xl hover:shadow-[#000244cc] hover:shadow-lg">
            <div className="h-14">
