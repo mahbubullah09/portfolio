@@ -1,24 +1,66 @@
+import { TypeAnimation } from "react-type-animation";
 import pic from "./assets/mahbub.png";
-import { FaArrowAltCircleDown } from "react-icons/fa";
+import { FaArrowAltCircleDown, FaGithub, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="max-w-6xl mx-auto">
-      <div className="flex justify-around  items-center  my-32  ">
-        <div className="space-y-4">
-          <h2 className="text-6xl font-bold text-[#2a2d74] ">Hello there,</h2>
-          <h2 className="text-6xl font-bold text-[#2a2d74] ">
-            I'm <span className="text-[#ff7b00]">Mahbubullah</span>
-          </h2>
-          <h4 className="text-4xl font-bold text-[#940808] ">Web developer</h4>
-          <div>
-            <button className="bg-[#011aff] rounded-full py-2 px-4 text-white text-lg font-medium">
-            <span className="flex items-center gap-2">  About me <FaArrowAltCircleDown/></span>
-            </button>
+    <div className="bg-slate-100">
+      <div className="max-w-6xl mx-auto ">
+        <div className="flex flex-col-reverse md:flex-row justify-between  items-center mx-8  py-32  ">
+          <div className="space-y-4">
+            <h2 className="text-6xl font-bold text-[#2a2d74] ">Hello there,</h2>
+            <h2 className="text-6xl font-bold text-[#2a2d74] ">
+              I'm <span className="text-[#ff7b00]">Mahbubullah</span>
+            </h2>
+            <div className="text-4xl font-bold text-[#940808] ">
+              <TypeAnimation
+                sequence={[
+                  "Web developer",
+                  1000,
+                  "Front-End  developer",
+                  1000,
+                  "React developer",
+                  1000,
+                  "MERN-Stack developer",
+                  1000,
+                ]}
+                speed={50}
+                style={{ fontSize: "3rem" }}
+                repeat={Infinity}
+              />
+            </div>
+
+            <div>
+              <button className="bg-[#011aff] rounded-full py-3 px-6 text-white text-xl font-medium">
+                <span className="flex items-center gap-2">
+                  {" "}
+                  About me <FaArrowAltCircleDown />
+                </span>
+              </button>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+                <MdEmail />
+              </div>
+              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+                <FaLinkedin />
+              </div>
+              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+                <FaGithub/>
+              </div>
+              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+                <FaWhatsapp />
+              </div>
+              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+              <FaTelegram />
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="w-1/3">
-          <img className="" src={pic} alt="" />
+          <div className="w-1/3">
+            <img className="" src={pic} alt="" />
+          </div>
         </div>
       </div>
     </div>
