@@ -3,10 +3,14 @@ import pic from "./assets/mahbub.png";
 import { FaArrowAltCircleDown, FaGithub, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import ParticleBg from "./ParticleBg";
 
 const Home = () => {
   return (
+    
     <div className="bg-slate-100">
+          
+      
       <div className="max-w-6xl mx-auto ">
         <div className="flex flex-col-reverse md:flex-row justify-between  items-center mx-8  py-32  ">
           <div className="space-y-4">

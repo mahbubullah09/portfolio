@@ -1,6 +1,7 @@
+import About from "./About";
 import Home from "./Home";
 import Navbar from "./Nav";
-
+import ParticleBg from "./ParticleBg";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
         <Navbar />
       </div>
       <div id="home">
-        <Home/>
+        <Home />
+      </div>
+      <div id="about">
+        <About/>
 
       </div>
     </div>
