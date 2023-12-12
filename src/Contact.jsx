@@ -52,7 +52,7 @@ const Contact = () => {
             <MdEmail />
           </div>
        </a>
-         <a href="www.linkedin.com/in/mahbubullah09" target="_blank">
+         <a href="https://www.linkedin.com/in/mahbubullah09" target="_blank">
          <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <FaLinkedin />
           </div>

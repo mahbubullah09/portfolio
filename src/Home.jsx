@@ -50,7 +50,7 @@ const Home = () => {
                 <MdEmail />
               </div>
             </a>
-             <a href="www.linkedin.com/in/mahbubullah09" target="_blank">
+             <a href="https://www.linkedin.com/in/mahbubullah09" target="_blank">
              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaLinkedin />
               </div>
