@@ -45,21 +45,31 @@ const Home = () => {
               </button>
             </div>
             <div className="flex flex-wrap gap-3">
-              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+            <a href="mailto:mahbubullahpathan@gmail.com">
+            <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <MdEmail />
               </div>
-              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+            </a>
+             <a href="www.linkedin.com/in/mahbubullah09">
+             <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaLinkedin />
               </div>
-              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
+             </a>
+             <a href="https://github.com/mahbubullah09">
+             <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaGithub/>
               </div>
+             </a>
+              <a href="https://wa.me/01909598003">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaWhatsapp />
               </div>
+              </a>
+              <a href="https://t.me//Mahbub6">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
               <FaTelegram />
               </div>
+              </a>
             </div>
           </div>
           <div className="w-full md:w-1/3">
