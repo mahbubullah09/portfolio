@@ -47,21 +47,31 @@ const Contact = () => {
 
       <div className="flex  justify-center items-center gap-1 md:gap-8 ">
         <div className="flex flex-col gap-3 ">
-          <div className="cursor-pointer text-[#00aced] bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
+       <a href="mailto:mahbubullahpathan@gmail.com" target="_blank">
+       <div className="cursor-pointer text-[#00aced] bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <MdEmail />
           </div>
-          <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
+       </a>
+         <a href="www.linkedin.com/in/mahbubullah09" target="_blank">
+         <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <FaLinkedin />
           </div>
+         </a>
+          <a href="https://github.com/mahbubullah09" target="_blank">
           <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <FaGithub />
           </div>
+          </a>
+          <a href="https://wa.me/01909598003" target="_blank">
           <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <FaWhatsapp />
           </div>
+          </a>
+          <a href="https://t.me//Mahbub6"  target="_blank">
           <div className="cursor-pointer text-[#00aced]  bg-black  text-base md:text-2xl p-3 md:p-4 w-10 md:w-14 rounded-full">
             <FaTelegram />
           </div>
+          </a>
         </div>
 
         <div className=" mx-1  p-4 my-4 md:px-12 max-w-xl   bg-white   rounded-2xl shadow-2xl">
