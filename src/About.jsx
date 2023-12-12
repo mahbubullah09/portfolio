@@ -22,7 +22,7 @@ const About = () => {
           <img className="rounded-[5rem] w-full p-4   shadow-2xl" src={image} alt="" />
         </div>
 
-        <div className="space-y-4 flex-1">
+        <div className="space-y-4 flex-1 mx-2">
           <h2 className="text-4xl font-bold">I'm Mahbubullah</h2>
           <p className="text-lg font-bold text-[#2a2d74]">
             Front-End Developer
