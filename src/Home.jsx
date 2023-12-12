@@ -45,27 +45,27 @@ const Home = () => {
               </button>
             </div>
             <div className="flex flex-wrap gap-3">
-            <a href="mailto:mahbubullahpathan@gmail.com">
+            <a href="mailto:mahbubullahpathan@gmail.com" target="_blank">
             <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <MdEmail />
               </div>
             </a>
-             <a href="www.linkedin.com/in/mahbubullah09">
+             <a href="www.linkedin.com/in/mahbubullah09" target="_blank">
              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaLinkedin />
               </div>
              </a>
-             <a href="https://github.com/mahbubullah09">
+             <a href="https://github.com/mahbubullah09" target="_blank">
              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaGithub/>
               </div>
              </a>
-              <a href="https://wa.me/01909598003">
+              <a href="https://wa.me/01909598003" target="_blank">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaWhatsapp />
               </div>
               </a>
-              <a href="https://t.me//Mahbub6">
+              <a href="https://t.me//Mahbub6" target="_blank">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
               <FaTelegram />
               </div>
