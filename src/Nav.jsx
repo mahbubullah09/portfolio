@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="navbar-end ">
             <div className="hidden lg:flex">{navlink}</div>
 
-            <div className="dropdown">
+            <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,10 +59,7 @@ const Navbar = () => {
                   />
                 </svg>
               </label>
-              <ul
-                tabIndex={0}
-                className=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
-              >
+              <ul tabIndex="0" className="menu  dropdown-content z-10 shadow bg-base-100 rounded-box w-52 ms-auto">
                 {navlink}
               </ul>
             </div>
