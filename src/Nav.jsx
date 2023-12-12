@@ -5,27 +5,49 @@ const Navbar = () => {
     <div className=" gap-4 flex flex-col lg:flex-row ">
       <ul className="py-1">
         <a
-          href="#"
+          href="#home"
           className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
         >
           Home
         </a>
       </ul>
-
       <ul className="py-1">
-      <a
-          href="#"
+        <a
+          href="#about"
           className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
         >
-            About</a>
+         About
+        </a>
       </ul>
+
 
       <ul className="py-1">
       <a
-          href="#"
+          href="#skill"
+          className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        >
+            Skills</a>
+      </ul>
+      <ul className="py-1">
+      <a
+          href="#edu"
+          className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        >
+            Education</a>
+      </ul>
+      <ul className="py-1">
+      <a
+          href="#project"
           className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
         >
             Projects</a>
+      </ul>
+      <ul className="py-1">
+      <a
+          href="#contact"
+          className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        >
+            Contact</a>
       </ul>
     </div>
   );

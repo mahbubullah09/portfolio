@@ -21,19 +21,19 @@ function App() {
       <div id="about">
         <About/>
       </div>
-      <div>
+      <div id="skill">
         <Skills/>
       </div>
-      <div>
+      <div  id="edu" >
         <Education/>
       </div>
-      <div>
+      <div  id="project">
         <Projects/>
       </div>
-      <div>
+      <div  id="extra">
         <Extra/>
       </div>
-      <div>
+      <div  id="contact">
         <Contact/>
       </div>
       <Toaster/>
