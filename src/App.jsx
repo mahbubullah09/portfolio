@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import About from "./About";
 import Contact from "./Contact";
 import Education from "./Education";
@@ -35,6 +36,7 @@ function App() {
       <div>
         <Contact/>
       </div>
+      <Toaster/>
     </div>
   );
 }
