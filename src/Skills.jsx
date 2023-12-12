@@ -6,7 +6,7 @@ const Skills = () => {
   const [skills, setSkils] = useState([]);
 
   useEffect(() => {
-    fetch("../public/skills.json")
+    fetch("skills.json")
       .then((response) => response.json())
 
       .then((data) => setSkils(data));
@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="text-center pb-6 text-2xl text-white font-bold  ">
         <h3 className=" flex items-center justify-center gap-2"> <FaLaptopCode/> Skills & <span className="text-[#ffe600]">Abilities</span></h3>
       </div>
-      <div className="max-w-4xl bg-[#00001666] mx-auto text-center gap-6   rounded-lg grid grid-cols-6 mb-10 p-8  ">
+      <div className="max-w-4xl bg-[#00001666] mx-auto text-center gap-6   rounded-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mb-10 p-8  ">
         {skills?.map((data, idx) => (
           <SkillsCard key={idx} data={data} />
         ))}

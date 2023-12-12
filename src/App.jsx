@@ -1,5 +1,6 @@
 import About from "./About";
 import Education from "./Education";
+import Extra from "./Extra";
 import Home from "./Home";
 import Navbar from "./Nav";
 import ParticleBg from "./ParticleBg";
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div>
         <Projects/>
+      </div>
+      <div>
+        <Extra/>
       </div>
     </div>
   );
