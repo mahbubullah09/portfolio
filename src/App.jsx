@@ -4,6 +4,7 @@ import Education from "./Education";
 import Extra from "./Extra";
 import Home from "./Home";
 import Navbar from "./Nav";
+import ParticleBg from "./ParticleBg";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
