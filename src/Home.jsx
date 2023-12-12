@@ -11,14 +11,14 @@ const Home = () => {
     <div className="bg-slate-100">
           
       
-      <div className="max-w-6xl mx-auto ">
-        <div className="flex flex-col-reverse md:flex-row justify-between  items-center mx-8  py-32  ">
-          <div className="space-y-4">
-            <h2 className="text-6xl font-bold text-[#2a2d74] ">Hello there,</h2>
-            <h2 className="text-6xl font-bold text-[#2a2d74] ">
+      <div className="max-w-6xl mx-auto  ">
+        <div className="flex flex-col-reverse md:flex-row justify-between  items-center mx-8  py-32  gap-8 md:gap-4 ">
+          <div className="space-y-4 text-center md:text-left">
+            <h2 className="text-4xl md:text-6xl font-bold text-[#2a2d74] ">Hello there,</h2>
+            <h2 className="text-4xl md:text-6xl font-bold text-[#2a2d74] ">
               I'm <span className="text-[#ff7b00]">Mahbubullah</span>
             </h2>
-            <div className="text-4xl font-bold text-[#940808] ">
+            <div className="text-3xl  font-bold text-[#940808] ">
               <TypeAnimation
                 sequence={[
                   "Web developer",
@@ -31,7 +31,7 @@ const Home = () => {
                   1000,
                 ]}
                 speed={50}
-                style={{ fontSize: "3rem" }}
+                style={{ fontSize: "2rem md:3rem" }}
                 repeat={Infinity}
               />
             </div>
@@ -62,7 +62,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/3">
+          <div className="w-full md:w-1/3">
             <img className="" src={pic} alt="" />
           </div>
         </div>
