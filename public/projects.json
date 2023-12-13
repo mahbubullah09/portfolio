@@ -28,6 +28,7 @@
         "Daisy UI",
         "React",
         "Ract-router",
+        "React-input",
         "Firebase",
         "Moment-js",
         "Swiper-js",
@@ -46,6 +47,14 @@
         "view": "https://roomjet-1d0e8.web.app/",
         "code": "https://github.com/mahbubullah09/RoomJet-clientSide"
       },
+      "Feature":[ 
+      "Firebase authentication", 
+      "Private route",
+      "Users can book rooms",
+      "Users can delete/update their room",
+      "Users can't cancel their room then just 1 day left'",
+      "Users can review their booked room"
+      ],
       "Technology":[ 
         "HTML5",
         "Tailwind CSS",
@@ -70,6 +79,16 @@
         "view": "https://foodhub-57cf2.web.app/",
         "code": "https://github.com/mahbubullah09/FoodHub-clientSide"
       },
+      "Feature":[ 
+      "Firebase authentication", 
+      "Private route",
+      "Day/Night mode",
+      "Users can add products in cart",
+      "Users can view their added products",
+      "Users can remove products from carts"
+    
+   
+      ],
       "Technology":[ 
         "HTML5",
         "Tailwind CSS",
