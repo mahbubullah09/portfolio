@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
   };
   return (
     <div>
-      <div className="group relative rounded-lg cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div className="group relative rounded-lg  items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div className="h-96">
           <img
             className="h-full w-full object-cover transition-transform duration-500 "
@@ -26,10 +26,10 @@ const ProjectCard = ({ project }) => {
             <p className="mb-3 p-2 text-left text-lg  font-medium text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               {project?.desc}
             </p>
-            <div className="grid grid-cols-3 gap-2  mx-2">
-              <button className="rounded-full bg-neutral-900 px-3.5 py-2 font-com text-sm capitalize text-white shadow shadow-black/60">
+            <div className="grid grid-cols-2 gap-8  mx-2">
+              {/* <button className="rounded-full bg-neutral-900 px-3.5 py-2 font-com text-sm capitalize text-white shadow shadow-black/60">
                 Details
-              </button>
+              </button> */}
 
               <button
                 onClick={() => openInNewTab(project?.links?.view)}

@@ -36,14 +36,18 @@ const Home = () => {
               />
             </div>
 
-            <div>
+      
+           <div>
+           <a href="#contact">
               <button className="bg-[#011aff] rounded-full py-3 px-6 text-white text-xl font-medium">
                 <span className="flex items-center gap-2">
                   {" "}
-                  About me <FaArrowAltCircleDown />
+                  Contact me <FaArrowAltCircleDown />
                 </span>
               </button>
+              </a>
             </div>
+         
             <div className="flex flex-wrap gap-3">
             <a href="mailto:mahbubullahpathan@gmail.com" target="_blank">
             <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">

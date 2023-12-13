@@ -12,7 +12,7 @@ import Skills from "./Skills";
 function App() {
   return (
     <div>
-      <div className="shadow-lg">
+      <div className="shadow-lg fixed w-full z-50">
         <Navbar />
       </div>
       <div id="home">

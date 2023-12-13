@@ -6,7 +6,7 @@ const Navbar = () => {
       <ul className="py-1">
         <a
           href="#home"
-          className="relative text-black hover:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+          className="relative text-black hover:text-[#011aff] active active:text-[#011aff]   w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#011aff] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
         >
           Home
         </a>
@@ -53,10 +53,12 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="">
+      <div className="bg-white z-50">
         <div className="navbar Montserrat font-semibold  max-w-6xl mx-auto   ">
           <div className="navbar-start ">
-            <h2> Mahbub</h2>
+           <a href="#home">
+           <h2 className="bg-[#272770]  text-white rounded-full px-4 py-1 text-center "> Portfolio of <span className="text-[#ffd900] font-bold text-xl" >Mahbubullah</span></h2>
+           </a>
           </div>
           <div className="navbar-center hidden lg:flex   rounded-full">
             <ul className="menu menu-horizontal px-4 "></ul>
