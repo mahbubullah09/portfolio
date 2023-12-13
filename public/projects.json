@@ -7,7 +7,35 @@
       "links": {
         "view": "https://techboat-7e8f6.web.app/",
         "code": "https://github.com/mahbubullah09/TechBoat-clientSide"
-      }
+      },
+      
+      "Feature":[ 
+      "Firebase authentication", 
+      "Private route",
+      "Users can vote products",
+      "Users can reports products",
+      "Users can add products",
+      "Users can update their products",
+      "Users ca delete theire products",
+      "Modarator can review products and reports",
+      "admin can manage new admin/modarator",
+      "Admin can add a copoun"
+   
+      ],
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Daisy UI",
+        "React",
+        "Ract-router",
+        "Firebase",
+        "Moment-js",
+        "Swiper-js",
+        "Framer-motion"
+
+   
+   
+      ]
     },
     {
       "name": "RoomJet",
@@ -17,7 +45,21 @@
       "links": {
         "view": "https://roomjet-1d0e8.web.app/",
         "code": "https://github.com/mahbubullah09/RoomJet-clientSide"
-      }
+      },
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Daisy UI",
+        "React",
+        "Ract-router",
+        "Firebase",
+        "Moment-js",
+        "Swiper-js",
+        "AOS"
+
+   
+   
+      ]
     },
     {
       "name": "FoodHub",
@@ -27,8 +69,23 @@
       "links": {
         "view": "https://foodhub-57cf2.web.app/",
         "code": "https://github.com/mahbubullah09/FoodHub-clientSide"
-      }
+      },
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Daisy UI",
+        "React",
+        "Ract-router",
+        "Firebase",
+        "Moment-js",
+        "Swiper-js",
+        "Framer-motion"
+
+   
+   
+      ]
     }
 
   ]
+
   
