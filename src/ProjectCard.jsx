@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
               {project?.desc}
             </p>
             <div className="grid grid-cols-3 gap-2  mx-2">
-              <button
+              {/* <button
                 onClick={() =>
                   document.getElementById("my_modal_5").showModal()
                 }
@@ -35,7 +35,7 @@ const ProjectCard = ({ project }) => {
               >
                 Details
               </button>
-              {/* Open the modal using document.getElementById('ID').showModal() method */}
+              
 
               <dialog
                 id="my_modal_5"
@@ -49,15 +49,12 @@ const ProjectCard = ({ project }) => {
                           <h1 className="font-bold text-center text-3xl text-gray-900">
                             {project?.name}
                           </h1>
-                          <p className="text-center text-sm text-gray-400 font-medium">
-                            
-                          </p>
+                          <p className="text-center text-sm text-gray-400 font-medium"></p>
                           <p>
                             <span></span>
                           </p>
-                         
-                          <div className="mt-10">
 
+                          <div className="mt-10">
                             <h2>Technologies used</h2>
                             <hr />
                           </div>
@@ -71,18 +68,20 @@ const ProjectCard = ({ project }) => {
                               </h2>
                             ))}
                           </div>
-                         
+
                           <div className="mt-10">
                             <h2>Features</h2>
                             <hr />
                             <div className="text-left">
-                            {project?.Feature?.map((data, idx) => (
-                               <h2 key={idx} className="text-lg font-semibold flex items-center gap-4"><MdWorkspacePremium /> 
-                                {data}
-                              </h2>
-                            ))}
-                            
-
+                              {project?.Feature?.map((data, idx) => (
+                                <h2
+                                  key={idx}
+                                  className="text-lg font-semibold flex items-center gap-4"
+                                >
+                                  <MdWorkspacePremium />
+                                  {data}
+                                </h2>
+                              ))}
                             </div>
                           </div>
                         </div>
@@ -91,12 +90,12 @@ const ProjectCard = ({ project }) => {
                   </div>
                   <div className="modal-action">
                     <form method="dialog">
-                      {/* if there is a button in form, it will close the modal */}
+                     
                       <button className="btn">Close</button>
                     </form>
                   </div>
                 </div>
-              </dialog>
+              </dialog> */}
 
               <button
                 onClick={() => openInNewTab(project?.links?.view)}

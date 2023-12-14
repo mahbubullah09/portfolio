@@ -34,8 +34,6 @@
         "Swiper-js",
         "Framer-motion"
 
-   
-   
       ]
     },
     {
@@ -64,10 +62,7 @@
         "Firebase",
         "Moment-js",
         "Swiper-js",
-        "AOS"
-
-   
-   
+        "AOS"   
       ]
     },
     {
@@ -86,8 +81,7 @@
       "Users can add products in cart",
       "Users can view their added products",
       "Users can remove products from carts"
-    
-   
+       
       ],
       "Technology":[ 
         "HTML5",
@@ -95,12 +89,9 @@
         "Daisy UI",
         "React",
         "Ract-router",
-        "Firebase",
-        "Moment-js",
-        "Swiper-js",
-        "Framer-motion"
+        "Firebase"
+       
 
-   
    
       ]
     }

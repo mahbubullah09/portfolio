@@ -123,14 +123,14 @@ const Extra = () => {
               </div>
             </span>
             <div className="timeline-start rounded-lg p-4 bg-[#f68c09] w-full">
-              <div className="text-xl font-bold">
-                <h2>Strengthening Leadership Skill for tht Club Leaders.</h2>
+            <div className="text-xl font-bold">
+                <h2>Green University Computer Club</h2>
               </div>
               <div className=" ">
                 <h3 className="font-bold text-base">
-                 Awarded by Green University of Bangladesh
+                  Joint Publication Secretary
                 </h3>
-                <p className="text-sm font-normal">November 2022 </p>
+                <p className="text-sm font-normal">March 2022 - August 2023</p>
               </div>
             </div>
           </li>
