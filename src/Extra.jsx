@@ -11,7 +11,7 @@ const Extra = () => {
           Extra Curriculum Activities
         </h2>
       </div>
-      <div className="hidden md:block mt-6">
+      <div className="hidden lg:block mt-6">
         <ul className="timeline timeline-vertical">
           <li>
             <div className="timeline-start rounded-lg p-4 bg-[#f68c09] w-96">
@@ -114,7 +114,7 @@ const Extra = () => {
         </ul>
       </div>
 
-      <div className="mx-6 mt-14 md:hidden">
+      <div className="mx-6 mt-14 lg:hidden">
         <ol className="relative border-s-4 border-[#020133] ">
           <li className="mb-10 ms-6">
             <span className="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ">

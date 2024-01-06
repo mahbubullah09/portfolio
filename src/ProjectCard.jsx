@@ -44,7 +44,7 @@ const ProjectCard = ({ project, setDetails }) => {
                 onClick={() => openInNewTab(project?.links?.view)}
                 className="rounded-full bg-neutral-900 px-3.5 py-2 font-com text-sm capitalize text-white shadow shadow-black/60"
               >
-                Live Link
+                Live site
               </button>
 
               <button
