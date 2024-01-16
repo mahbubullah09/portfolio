@@ -2,7 +2,7 @@
     {
       "name": "AidUnity",
       "desc": "Its a simple MERN Stack Project where we are collecting donation for education, health, cloath and food. I use two role user, and admin. User can donate any of aids and can post/request for add new compaign and admin can maintain all aids , events, volunteers.",
-      "image": "https://i.ibb.co/4pTx9sT/screencapture-techboat-7e8f6-web-app-2023-12-12-03-07-48.png",
+      "image": "https://i.ibb.co/r2hFyMJ/screencapture-donation-campaign-1091e-web-app-2024-01-16-23-09-17.png",
      
       "links": {
         "view": "https://donation-campaign-1091e.web.app/",
@@ -10,16 +10,16 @@
       },
       
       "Feature":[ 
-      "Firebase authentication", 
+      "User authentication with firebase", 
       "Private route",
-      "Users can vote products",
-      "Users can reports products",
-      "Users can add products",
-      "Users can update their products",
-      "Users ca delete theire products",
-      "Modarator can review products and reports",
-      "admin can manage new admin/modarator",
-      "Admin can add a copoun"
+      "User can search donation item by input donation name.",
+      "User can donate in any item by clicking card.",
+      "User can view their donation details.",
+      "User can request for volunteer any of event.",
+      "User can post , comment , like, dislike any post at helpdesk.",
+      "Admin can manage aids.",
+      "Admin can manage events.",
+      "Admin can maintain volunteer for events."
    
       ],
       "Technology":[ 
@@ -28,11 +28,11 @@
         "Daisy UI",
         "React",
         "Ract-router",
-        "React-input",
+        "Email-js",
         "Firebase",
         "Moment-js",
-        "Swiper-js",
-        "Framer-motion"
+        "Swiper-js"
+        
 
       ]
     },
