@@ -18,12 +18,12 @@ const ProjectCard = ({ project, setDetails }) => {
           />
         </div>
 
-        <div className="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center text-center transition-all duration-500 group-hover:translate-y-10">
-          <div className="h-80 bg-white">
+        <div className="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center text-center transition-all duration-500 group-hover:translate-y-1 md:group-hover:translate-y-10">
+          <div className="h-96 md:h-80 bg-white">
             <h1 className="w-full bg-amber-500 py-1 font-dmserif text-3xl font-bold text-black">
               {project?.name}
             </h1>
-            <p className="mb-3 p-2 text-left text-lg  font-medium text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <p className="mb-3 p-2 text-left text-base  font-medium text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               {project?.desc}
             </p>
             <div className="grid grid-cols-3 gap-2  mx-2">

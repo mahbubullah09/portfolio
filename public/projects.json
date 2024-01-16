@@ -1,7 +1,7 @@
 [
     {
       "name": "AidUnity",
-      "desc": "Its a simple MERN Stack Project where we are collecting donation for education, health, cloath and food. I use two role user, and admin. User can donate any of aids and can post/request for add new compaign and admin can maintain all aids , events, volunteers.",
+      "desc": "Its a simple MERN Stack Project where we are collecting donation for education, health, cloath and food. User can donate any of aids and can post/request for add new compaign and admin can maintain all aids , events, volunteers.",
       "image": "https://i.ibb.co/r2hFyMJ/screencapture-donation-campaign-1091e-web-app-2024-01-16-23-09-17.png",
      
       "links": {
