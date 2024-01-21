@@ -131,6 +131,36 @@
 
    
       ]
+    },
+    {
+      "name": "Hot Gadget",
+      "desc": "Simple responsive front-end design with API using HTML, tailwind CSS, and JavaScript.Where users can search mobile phones and can see the details",
+      "image": "https://i.ibb.co/GWdtrrD/screencapture-mahbubullah09-github-io-phone-hunter-with-api-2024-01-21-19-46-49.png",
+      
+      "links": {
+        "view": "https://mahbubullah09.github.io/phone-hunter-with-api/",
+        "code": "https://github.com/mahbubullah09/phone-hunter-with-api"
+      },
+      "Feature":[ 
+      "Firebase authentication", 
+      "Private route",
+      "Day/Night mode",
+      "Users can add products in cart",
+      "Users can view their added products",
+      "Users can remove products from carts"
+       
+      ],
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Daisy UI",
+        "React",
+        "Ract-router",
+        "Firebase"
+       
+
+   
+      ]
     }
 
   ]
