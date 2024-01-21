@@ -142,21 +142,16 @@
         "code": "https://github.com/mahbubullah09/phone-hunter-with-api"
       },
       "Feature":[ 
-      "Firebase authentication", 
-      "Private route",
-      "Day/Night mode",
-      "Users can add products in cart",
-      "Users can view their added products",
-      "Users can remove products from carts"
+      "Search Gadget", 
+      "Show all/less button"
+      
        
       ],
       "Technology":[ 
         "HTML5",
         "Tailwind CSS",
         "Daisy UI",
-        "React",
-        "Ract-router",
-        "Firebase"
+        "API"
        
 
    
