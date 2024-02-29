@@ -30,10 +30,10 @@ const About = () => {
         <div className="space-y-4 flex-1 mx-2">
           <h2 className="text-4xl font-bold">I'm Mahbubullah</h2>
           <p className="text-lg font-bold text-[#2a2d74]">
-            Front-End Developer
+            MERN-Stack Developer
           </p>
           <p className="text-lg font-semibold">
-            I'm a Front-End developer from Bangladesh. I'm Currently studying
+            I'm a MERN-Stack developer from Bangladesh. I'm Currently studying
             BSc in CSE at Green University of Bangladrsh. I'm very passionate
             about improving my coding skills & developing websites. I've
             developed so many projects recently using the latest web programming technologies.          </p>
