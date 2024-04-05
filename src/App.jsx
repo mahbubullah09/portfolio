@@ -7,6 +7,7 @@ import Home from "./Home";
 import Navbar from "./Nav";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -35,8 +36,11 @@ function App() {
       <div  id="contact">
         <Contact/>
       </div>
+
+      <Footer/>
       <Toaster/>
     </div>
+
   );
 }
 
