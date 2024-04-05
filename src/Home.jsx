@@ -3,7 +3,6 @@ import pic from "./assets/mahbub.png";
 import { FaArrowAltCircleDown, FaGithub, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import ParticleBg from "./ParticleBg";
 
 const Home = () => {
   return (
