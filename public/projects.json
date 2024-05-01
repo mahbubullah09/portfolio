@@ -133,6 +133,32 @@
       ]
     },
     {
+      "name": "The Dragon News",
+      "desc": "Simple responsive front-end design with API using HTML, tailwind CSS, and JavaScript.Where users can search mobile phones and can see the details",
+      "image": "https://i.ibb.co/6vn9YzP/the-dragon-news.png",
+      
+      "links": {
+        "view": "https://the-dragon-news-kappa.vercel.app/",
+        "code": "https://github.com/mahbubullah09/news-portal-nextjs"
+      },
+      "Feature":[ 
+      "News by Category ", 
+      "News from API"
+      
+       
+      ],
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Next JS",
+        "Material UI",
+        "API"
+       
+
+   
+      ]
+    },
+    {
       "name": "Hot Gadget",
       "desc": "Simple responsive front-end design with API using HTML, tailwind CSS, and JavaScript.Where users can search mobile phones and can see the details",
       "image": "https://i.ibb.co/GWdtrrD/screencapture-mahbubullah09-github-io-phone-hunter-with-api-2024-01-21-19-46-49.png",
