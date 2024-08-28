@@ -1,7 +1,7 @@
 import { MdWorkspacePremium } from "react-icons/md";
 
 const ProjectCard = ({ project, setDetails }) => {
-  console.log(project?.view);
+
 
   const openInNewTab = (url) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");

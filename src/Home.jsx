@@ -3,6 +3,7 @@ import pic from "./assets/mahbub.png";
 import { FaArrowAltCircleDown, FaGithub, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import ParticlesComponent from "./particle";
 
 
 
@@ -11,15 +12,15 @@ import { FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
     
-    <div className="bg-slate-100">
-          
-      
+    <div >
+       
+       <ParticlesComponent  id='particles'/>
       <div className="max-w-6xl mx-auto  ">
         <div className="flex flex-col-reverse md:flex-row justify-between  items-center mx-8  py-32  gap-8 md:gap-4 ">
           <div className="space-y-4 text-center md:text-left">
             <h2 className="text-4xl md:text-6xl font-bold text-[#2a2d74] ">Hello there,</h2>
             <h2 className="text-4xl md:text-6xl font-bold text-[#2a2d74] ">
-              I'm <span className="text-[#ff7b00]">Mahbubullah</span>
+              I&#39;m <span className="text-[#ff7b00]">Mahbubullah</span>
             </h2>
             <div className="text-3xl  font-bold text-[#940808] ">
               <TypeAnimation
@@ -52,27 +53,27 @@ const Home = () => {
             </div>
          
             <div className="flex flex-wrap gap-3">
-            <a href="mailto:mahbubullahpathan@gmail.com" target="_blank">
+            <a href="mailto:mahbubullahpathan@gmail.com" target="_blank" rel="noopener noreferrer">
             <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <MdEmail />
               </div>
             </a>
-             <a href="https://www.linkedin.com/in/mahbubullah09" target="_blank">
+             <a href="https://www.linkedin.com/in/mahbubullah09" target="_blank" rel="noopener noreferrer">
              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaLinkedin />
               </div>
              </a>
-             <a href="https://github.com/mahbubullah09" target="_blank">
+             <a href="https://github.com/mahbubullah09" target="_blank" rel="noopener noreferrer">
              <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaGithub/>
               </div>
              </a>
-              <a href="https://wa.me/01909598003" target="_blank">
+              <a href="https://wa.me/01909598003" target="_blank" rel="noopener noreferrer">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
                 <FaWhatsapp />
               </div>
               </a>
-              <a href="https://t.me//Mahbub6" target="_blank">
+              <a href="https://t.me//Mahbub6" target="_blank" rel="noopener noreferrer">
               <div className="cursor-pointer text-[#00aced] text-2xl bg-black px-4 py-4 w-14 rounded-full">
               <FaTelegram />
               </div>

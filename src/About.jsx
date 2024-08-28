@@ -11,7 +11,7 @@ const About = () => {
     window.location.href = resumeLink;
   };
   return (
-    <div className="max-w-4xl mx-auto my-32">
+    <div className="max-w-4xl mx-auto my-16">
       <div className="text-center mb-8 flex items-center justify-center text-4xl font-extrabold">
         <IoPerson />
         <h2>

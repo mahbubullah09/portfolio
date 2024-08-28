@@ -11,14 +11,14 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
+    <div style={{ scrollBehavior: 'smooth' }}>
       <div className="shadow-lg fixed w-full z-50">
         <Navbar />
       </div>
       <div id="home">
         <Home />
       </div>
-      <div id="about">
+      <div className="bg-[#e5ecfb] py-1" id="about">
         <About/>
       </div>
       <div id="skill">
