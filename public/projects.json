@@ -182,6 +182,31 @@
 
    
       ]
+    },
+    {
+      "name": "Fruit Brust ",
+      "desc": "Simple responsive website using HTML, tailwind CSS, and JavaScript.",
+      "image": "https://i.ibb.co.com/CnbpGdv/Screenshot-2024-09-08-215116.png",
+      
+      "links": {
+        "view": "https://github.com/mahbubullah09/fruit-brust",
+        "code": "https://mahbubullah09.github.io/fruit-brust/"
+      },
+      "Feature":[ 
+      "Responsive design", 
+      "Attractive looks"
+      
+       
+      ],
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "Daisy UI"
+       
+       
+
+   
+      ]
     }
 
   ]

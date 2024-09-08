@@ -13,7 +13,7 @@ const Projects = () => {
 
       .then((data) => setProjects(data));
   }, []);
-  console.log(projets);
+ 
   return (
     <div className="px-10 pt-10 pb-20 bg-gradient-to-b from-[#000031] to-[#00002c] ">
       <div className="text-white text-center text-3xl font-bold mb-8">
