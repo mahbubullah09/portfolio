@@ -1,5 +1,39 @@
 [
     {
+      "name": "Bistro Boss",
+      "desc": "Its a simple MERN Stack Project where users can buy, explore and can give review of the resturant.",
+      "image": "https://i.ibb.co.com/FDfWZbh/Screenshot-2024-09-23-183005.png",
+     
+      "links": {
+        "view": "https://bistrooo-boss.web.app/",
+        "code": "https://github.com/mahbubullah09/Restaurant-client"
+      },
+      
+      "Feature":[ 
+      "User authentication with firebase", 
+      "Private route",
+      "Users can add to cart foods",
+      "Users can explore and buy foods",
+      "Users can give review resturant.",
+      "Users can see their order history",
+      "Admins can manage foods.",
+      "Admins can manage users",
+
+   
+      ],
+      "Technology":[ 
+        "HTML5",
+        "Tailwind CSS",
+        "React",
+        "Ract-router",
+        "Firebase",
+        "Moment-js",
+        "Swiper-js"
+        
+
+      ]
+    },
+    {
       "name": "AidUnity",
       "desc": "Its a simple MERN Stack Project where we are collecting donation for education, health, cloath and food. User can donate any of aids and can post/request for add new compaign and admin can maintain all aids , events, volunteers.",
       "image": "https://i.ibb.co/r2hFyMJ/screencapture-donation-campaign-1091e-web-app-2024-01-16-23-09-17.png",
