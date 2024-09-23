@@ -17,9 +17,7 @@
       "Users can give review resturant.",
       "Users can see their order history",
       "Admins can manage foods.",
-      "Admins can manage users",
-
-   
+      "Admins can manage users"   
       ],
       "Technology":[ 
         "HTML5",
